@@ -5,7 +5,7 @@ FROM python:3.9-alpine
 WORKDIR /app
 
 # Copy Python script into container
-COPY pokemon_scanner.py .
+COPY scanner.py .
 
 # Install dependencies
 RUN pip install requests
